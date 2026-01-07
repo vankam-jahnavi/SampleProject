@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>469e9fdb-66a0-442a-bd41-668b21a64f7c</groupId>
-	<artifactId>order_details</artifactId>
+	<artifactId>order-details</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
-	<name>order_details</name>
+	<name>order-details</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,7 +41,7 @@
 							469e9fdb-66a0-442a-bd41-668b21a64f7c</businessGroupId>
 						<environment>Dev</environment>
 						<target>Cloudhub-US-East-2</target>
-						<applicationName>order_details</applicationName>
+						<applicationName>order-details</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 						<deploymentSettings>
