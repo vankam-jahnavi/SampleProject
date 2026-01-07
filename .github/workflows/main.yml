@@ -89,7 +89,7 @@ jobs:
 
         run: |
 
-          mvn deploy --settings .maven/settings.xml -DskipMunitTests -DmuleDeploy \
+          mvn deploy --settings .settings/settings.xml -DskipMunitTests -DmuleDeploy \
 
           -Danypoint.username="c60aada09ed34f2598dae48f26082b78" \
 
