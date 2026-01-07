@@ -50,7 +50,7 @@ jobs:
 
         run: |
 
-          mvn deploy --settings .maven/settings.xml -DskipMunitTests \
+          mvn deploy --settings .settings/settings.xml -DskipMunitTests \
 
           -Danypoint.username="${{ secrets.USER }}" \
 
